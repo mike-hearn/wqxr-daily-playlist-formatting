@@ -1,0 +1,8 @@
+textarea {
+  width: 100%;
+  height: 400px;
+}
+
+* {
+  font-family: 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif;
+}
