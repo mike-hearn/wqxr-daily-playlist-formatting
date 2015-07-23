@@ -12,7 +12,7 @@ var Paste = React.createClass({
 
     // Hours get H3 tags
     inputText = inputText.replace(
-      /(\d+(A|P)M)/g,
+      /(\d.*(A|P)M)$/gm,
       '<h3>$1</h3>');
 
     // Any line w/o a tab or a heading gets an H2
